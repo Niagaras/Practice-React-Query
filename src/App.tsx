@@ -1,5 +1,6 @@
 import './App.css'
-import CompletedTasks from './components/CompletedTasks'
+//import CompletedTasks from './components/CompletedTasks'
+import OneUserTasks from './components/OneUserTasks'
 // import QueryBasics from './components/queryBasics'
 
 
@@ -10,7 +11,8 @@ function App() {
     <>
       <h1>Query App</h1>
      {/* <QueryBasics /> */}
-     <CompletedTasks />
+     {/* <CompletedTasks /> */}
+     <OneUserTasks />
     </>
   )
 }
