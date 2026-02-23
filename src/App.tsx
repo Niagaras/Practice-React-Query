@@ -1,5 +1,6 @@
 import './App.css'
-import QueryBasics from './components/queryBasics'
+import CompletedTasks from './components/CompletedTasks'
+// import QueryBasics from './components/queryBasics'
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <h1>Query App</h1>
-      <QueryBasics />
+     {/* <QueryBasics /> */}
+     <CompletedTasks />
     </>
   )
 }
